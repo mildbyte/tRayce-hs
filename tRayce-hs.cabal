@@ -1,0 +1,19 @@
+name: tRayce-hs 
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+synopsis: Raytracer
+description: Raytracer
+data-dir: ""
+ 
+executable tRayce-hs
+    build-depends: base -any, bmp -any, bytestring -any,
+                   containers -any
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: src
+    other-modules: Main Camera Primitives Scene Bitmap Vector
+    ghc-options: -rtsopts
+ 
