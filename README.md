@@ -7,6 +7,7 @@ Build
 -----
 
 Requires GHC and a package bmp. Build using
+
     cabal configure
     cabal build
 
